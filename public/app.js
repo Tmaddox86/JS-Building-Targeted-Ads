@@ -97,11 +97,10 @@ window.onload = async () => {
     buildAd2(coords)
 }
 
+
 // On load, build ads:                                                             
 window.onload = async () => {
     buildAd1()
     const coords = await getCoords()
     buildAd2(coords)
 }
-
-
